@@ -38,3 +38,5 @@ app.get("/tester", (request, response) => {
 app.listen(process.env.PORT, () => {
   console.log(`server is running at port ${process.env.PORT}`);
 });
+
+module.exports = app;
