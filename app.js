@@ -13,11 +13,11 @@ const allowedOrigins = [
 const origin = function (origin, callback) {
   if (!origin) return callback(null, true);
 
-  if (allowedOrigins.indexOf(origin) === -1) {
-    console.log(origin);
-    const message = `This site ${origin} doesn't have a permission to access this site.`;
-    return callback(new AppError(message, 403), false);
-  }
+  // if (allowedOrigins.indexOf(origin) === -1) {
+  //   console.log(origin);
+  //   const message = `This site ${origin} doesn't have a permission to access this site.`;
+  //   return callback(new AppError(message, 403), false);
+  // }
   return callback(null, true);
 };
 
