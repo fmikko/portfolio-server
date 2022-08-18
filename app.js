@@ -6,7 +6,7 @@ const cors = require("cors");
 env.config();
 
 const allowedOrigins = [
-  "https://fmgaportfolio.netlify.app/",
+  "https://fmgaportfolio.netlify.app",
   "http://localhost:4200",
 ];
 
